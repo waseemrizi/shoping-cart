@@ -5,11 +5,11 @@ import LocationOnIcon from "@material-ui/icons/LocationOn";
 import CallIcon from "@material-ui/icons/Call";
 const useStyles = makeStyles((theme) => ({
   mainFooter: {
-    background: "#f0f1ec",
+    background: "#3f51b5",
     position: "relative",
     bottom: 0,
     marginTop: "80px",
-    color: "black",
+    color: "white",
     textAlign: "center",
   },
   title: {

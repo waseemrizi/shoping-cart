@@ -5,6 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -95,7 +96,9 @@ function NavBar() {
         <Toolbar>
 
           <Typography className={classes.title} variant="h5" noWrap>
+          <AddShoppingCartIcon />
             Shoes Store
+            
           </Typography>
 
           <div className={classes.grow} />

@@ -1,6 +1,6 @@
 import React from "react";
 // import ReactDOM from 'react-dom';
-import cover1 from '.././components/images/cover1.jpg';
+import cover1 from '.././components/images/cover1.jpg'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { makeStyles } from "@material-ui/core";
@@ -31,7 +31,7 @@ function DemoCarousel() {
       </div>
       <div>
         <img
-          src="https://images.unsplash.com/photo-1578986175247-7d60c6df07c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          src="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
           alt=""
           className={classes.img}
         />
@@ -39,7 +39,7 @@ function DemoCarousel() {
       </div>
       <div>
         <img
-          src="https://images.unsplash.com/photo-1591693294636-f8e72b0547ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
           alt=""
           className={classes.img}
         />

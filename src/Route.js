@@ -6,6 +6,7 @@ import ProductItem from './components/ProductItem';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import Carousel from'./components/Carousal';
 
 function RouteConfig() {
 
@@ -14,6 +15,7 @@ function RouteConfig() {
     
         <Router>
           <NavBar />
+          <Carousel />
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={About}/>
